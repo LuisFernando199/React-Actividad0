@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+    flex-direction: row;
+   
+}
+.card {
+       
+    border: 3px solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    background-color: rgb(250, 177, 43);
+  }
+  
+  .card img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    text-align: center;
+  }
